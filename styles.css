@@ -57,35 +57,38 @@ body {
     left: 5px;
 }
 
-.hour-hand,
-.minute-hand,
-.second-hand {
+#hour-hand,
+#minute-hand,
+#second-hand {
     position: absolute;
-    background-color: #454545;
+    box-shadow: 0 0 1px;
 }
 
-.hour-hand {
+#hour-hand {
+    background-color: #e2e2e2;
     width: 8px;
     height: 50px;
-    top: 50px;
+    top: 70px;
     left: 96px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
 
-.minute-hand {
+#minute-hand {
+    background-color: #696969;
     width: 6px;
     height: 70px;
-    top: 30px;
+    top: 60px;
     left: 97px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
 
-.second-hand {
+#second-hand {
+    background-color: #454545;
     width: 2px;
     height: 90px;
-    top: 10px;
+    top: 55px;
     left: 99px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
