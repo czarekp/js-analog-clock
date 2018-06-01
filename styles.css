@@ -17,8 +17,8 @@ body {
 }
 
 .clock {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     background-color: #2cccad;
     box-shadow: 0px 0px 8px 2px;
@@ -30,7 +30,7 @@ body {
     width: 30px;
     height: 30px;
     font-family: 'Poiret One', cursive;
-    font-size: 24px;
+    font-size: 36px;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -38,23 +38,23 @@ body {
 }
 
 .twelwe {
-    left: 85px;
-    top: 5px;
+    left: 185px;
+    top: 15px;
 }
 
 .three {
-    top: 85px;
-    right: 5px;
+    top: 185px;
+    right: 15px;
 }
 
 .six {
-    bottom: 5px;
-    left: 85px;
+    bottom: 15px;
+    left: 185px;
 }
 
 .nine {
-    top: 85px;
-    left: 5px;
+    top: 185px;
+    left: 15px;
 }
 
 #hour-hand,
@@ -67,9 +67,9 @@ body {
 #hour-hand {
     background-color: #e2e2e2;
     width: 8px;
-    height: 50px;
-    top: 70px;
-    left: 96px;
+    height: 120px;
+    top: 145px;
+    left: 194px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -77,9 +77,9 @@ body {
 #minute-hand {
     background-color: #696969;
     width: 6px;
-    height: 70px;
-    top: 60px;
-    left: 97px;
+    height: 140px;
+    top: 130px;
+    left: 194px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
@@ -87,17 +87,17 @@ body {
 #second-hand {
     background-color: #454545;
     width: 2px;
-    height: 90px;
-    top: 55px;
-    left: 99px;
+    height: 180px;
+    top: 110px;
+    left: 200px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
 
 .center {
     position: absolute;
-    top: 90px;
-    left: 90px;
+    top: 190px;
+    left: 190px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
